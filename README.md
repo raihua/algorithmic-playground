@@ -35,6 +35,6 @@ Contributions are welcome and encouraged! If you'd like to add new algorithms, i
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the code for personal and commercial purposes. However, please attribute the original authors and provide a link back to this repository.
+This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE), which means you're free to use, modify, and distribute the code for personal and commercial purposes. However, please attribute the original authors and provide a link back to this repository.
 
 Happy coding and algorithm exploration!
