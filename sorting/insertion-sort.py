@@ -1,13 +1,16 @@
-def insertionSort(data):
-    for i in range(1, len(data)):
-        key = data[i]
+def insertionSort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
         j = i - 1
         
-        # insert key into sorted sub array data[1:i - 1]
-        while j >= 0 and data[j] > key:
-            data[j + 1] = data[j]
-            j -= 1
-        data[j + 1] = key
-    print(data)
 
-insertionSort([5, 2, 4, 6, 1, 3])
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+    
+    return arr
+
+data = [5, 2, 4, 6, 1, 3]
+sortedData = insertionSort(data)
+print(sortedData)
